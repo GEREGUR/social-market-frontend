@@ -3,6 +3,7 @@ import { FiSearch } from "react-icons/fi";
 import { PiChatCircleBold } from "react-icons/pi";
 import { IoPricetagsOutline } from "react-icons/io5";
 import { SlBasket } from "react-icons/sl";
+import { CiLogin } from "react-icons/ci";
 
 export const routes = [
   {
@@ -29,5 +30,10 @@ export const routes = [
     title: "Cart",
     href: "/cart",
     Icon: SlBasket,
+  },
+  {
+    title: "Login",
+    href: "/signup",
+    Icon: CiLogin,
   }
 ];

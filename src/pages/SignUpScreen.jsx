@@ -1,13 +1,7 @@
-import Header from "../components/header/Header";
-
+import LoginSignup from "../components/login/LoginSignup";
 
 function SignUpScreen() {
-    return (
-        <div>
-            <Header/>
-            <h1>Sign up Screen</h1>
-        </div>
-    );
+    return <LoginSignup />
 }
 
 export default SignUpScreen;

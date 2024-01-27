@@ -1,9 +1,19 @@
 function Hero() {
     return (
-        <div>
-            <div className="w-full flex flex-col items-center justify-center md:flex-row md:h-[550px] md:justify-around my-10">
-                <div className="w-[90%] mb-5 border-2 border-black cursor-pointer h-[400px] md:w-1/3 md:h-[550px] md:mb-0 align-text-bottom text-center">Женское</div>
-                <div className="w-[90%] border-2 border-black cursor-pointer h-[400px] md:w-1/3 md:h-[550px] text-center">Мужское</div>
+        <div className="">
+            <div className="w-full flex flex-col items-center md:items-baseline mt-8 mb-32 sm:mt-6  justify-center md:flex-row  md:justify-around">
+                <div className="w-96 h-[35.8em] border-black border-2">
+                    <a href="" className="items-center flex flex-col">
+                        <img src="https://www.malemodelscene.net/wp-content/uploads/2021/04/Balenciaga-Pre-Fall-2021-05.jpg" alt="menswear" />
+                        <p className='font-medium text-4xl'>Men</p>
+                    </a>
+                </div>
+                <div className="w-96 h-[35.8em] border-black border-2 mt-14">
+                    <a href="" className="items-center flex flex-col">
+                        <img src="https://www.universityoffashion.com/blog/wp-content/uploads/2023/06/A-look-from-Balenciagas-Resort-2023-Collection.-Photo-Credit-Vogue-683x1024.webp" alt="nonmenswear" />
+                        <p className='text-4xl font-medium'>Women</p>
+                    </a>
+                </div>
             </div>
         </div>
     );

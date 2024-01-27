@@ -1,7 +1,6 @@
 import {Routes, Route} from 'react-router-dom'
 import HomeScreen from './pages/HomeScreen'
 import SignUpScreen from './pages/SignUpScreen'
-import LoginScreen from './pages/LoginScreen'
 import FavScreen from './pages/FavScreen'
 import CartPage from './pages/CartPage'
 import AboutPage from './pages/AboutPage'
@@ -14,7 +13,6 @@ function App() {
       <Routes>
         <Route path='/' element={<HomeScreen/>} ></Route>
         <Route path='/signup' element={<SignUpScreen/>}></Route>
-        <Route path='/login' element={<LoginScreen/>}></Route>
         <Route path='/product' element={<ProductPage/>}></Route>
         <Route path='/fav' element={<FavScreen/>}></Route>
         <Route path='/cart' element={<CartPage/>}></Route>

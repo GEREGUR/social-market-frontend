@@ -1,6 +1,5 @@
 import Header from "../components/header/Header";
 
-
 function FavScreen() {
     return (
         <div>
