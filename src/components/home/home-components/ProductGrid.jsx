@@ -38,6 +38,7 @@ const ProductGrid = () => {
             color: "Balenciaga Tyrex",
           },
 ];
+
 const handleClick = (myLink) => () => {
     window.location.href=myLink;
   }
