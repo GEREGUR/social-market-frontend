@@ -9,7 +9,9 @@ const Home = () => {
         <Slider></Slider>
         <Hero></Hero>
         <ProductGrid></ProductGrid>
-        <Footer/>
+        <div className="mt-24">
+          <Footer/>
+        </div>
     </div>
   )
 }
