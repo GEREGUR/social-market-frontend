@@ -1,7 +1,13 @@
-import LoginSignup from "../components/login/LoginSignup";
+import LoginSignup from "../components/login/LoginForm";
 
 function SignUpScreen() {
-    return <LoginSignup />
+  return (
+    <div className='w-full flex justify-center items-center min-h-screen'>
+      <div>
+        <LoginSignup />
+      </div>
+    </div>
+  );
 }
 
 export default SignUpScreen;
