@@ -1,5 +1,7 @@
 import { Link } from 'react-router-dom';
 import Product from '../../product/Product';
+// import Pagination from '../../pagination/Pagination'
+
 
 const ProductGrid = () => {
     const products = [
@@ -7,7 +9,7 @@ const ProductGrid = () => {
         _id: "100001",
         img: "https://www.thenextsole.com/storage/images/617535W2TA11000.png",
         productName: "Balenciaga Tyrex",
-        price: "44.00",
+        price: "48.00",
         color: "Black",
       },
       {
@@ -38,6 +40,13 @@ const ProductGrid = () => {
         price: "44.00",
         color: "Balenciaga Tyrex",
       },
+      {
+        _id: "100007",
+        img: "https://www.thenextsole.com/storage/images/617535W2TA11000.png",
+        productName: "Round Table Clock",
+        price: "44.00",
+        color: "Balenciaga Tyrex",
+      },
 ];
 
   return (
@@ -55,6 +64,7 @@ const ProductGrid = () => {
           </Link>
         ))}
       </div>
+      {/* <Pagination /> */}
     </div>
   );
 };

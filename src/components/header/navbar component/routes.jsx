@@ -4,6 +4,8 @@ import { PiChatCircleBold } from "react-icons/pi";
 import { IoPricetagsOutline } from "react-icons/io5";
 import { SlBasket } from "react-icons/sl";
 import { CiLogin } from "react-icons/ci";
+import { FaTelegram } from "react-icons/fa";
+
 
 export const routes = [
   {
@@ -35,5 +37,10 @@ export const routes = [
     title: "Login",
     href: "/signup",
     Icon: CiLogin,
+  },
+  {
+    title: "Telegram",
+    href:"/",
+    Icon: FaTelegram,
   }
 ];
