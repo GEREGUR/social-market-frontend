@@ -14,11 +14,20 @@
     "@clerk/clerk-react": "^4.30.3",
     "@tanstack/react-query": "^5.17.19",
     "alpinejs": "^3.13.5",
+    "autoprefixer": "^10.4.17",
     "axios": "^1.6.7",
+<<<<<<< HEAD
     "prop-types": "^15.8.1",
+=======
+    "framer-motion": "^11.0.3",
+    "hamburger-react": "^2.5.0",
+>>>>>>> 51eb265c71251fbc536edb458908ac997d7de326
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
-    "react-query": "^3.39.3"
+    "react-icons": "^5.0.1",
+    "react-query": "^3.39.3",
+    "react-router-dom": "^6.21.3",
+    "react-use": "^17.5.0"
   },
   "devDependencies": {
     "@types/node": "^20.11.16",

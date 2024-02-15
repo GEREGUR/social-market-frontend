@@ -1,9 +1,14 @@
 import axios from 'axios'
 import { useQuery } from '@tanstack/react-query'
 
-async function fetchProducts(){
-    const {data} = await axios.get('/products');      
-    return data.products
+async function fetchAllProducts(){
+    const {data} = await axios.get('https://localhost:44369/clothes');      
+    return data
+}
+
+async function fetchExactProduct(id){
+    const {data} = await axios.get('https://localhost:44369/' + id);
+    return data
 }
 
 function requests(){   
