@@ -5,7 +5,7 @@ import Footer from "./home-components/Footer"
 
 const Home = () => {
   return (
-    <div className="mt-[5.5rem]">
+    <div className="mt-24">
         <Slider></Slider>
         <Hero></Hero>
         <ProductGrid></ProductGrid>
